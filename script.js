@@ -3,6 +3,7 @@ const highscore = document.getElementById('highscore')
 const scoreDisplay = document.getElementById('score')
 const retry = document.getElementById('retry')
 const text = document.getElementById('text')
+const grid = document.getElementById('game_grid')
 
 
 let foodIcon        = '🍎'
@@ -149,7 +150,7 @@ let gameOver = function(){
     text.innerHTML = "Game Over!"
     text.style = "color:rgb(187, 70, 70)"
 
-    document.getElementById('game_grid').style = 'border: 2px red solid'
+    grid.style = 'border: 2px red solid'
 
     updateHighscore()
 
