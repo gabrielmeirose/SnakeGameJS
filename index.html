@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake JS</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <h1 id="title">🐍 Snake JS 🍏</h1>
+
+    <div id="game_grid">
+
+        <!-- A 6x6 game board, with 6 rows, each with 6 grid items -->
+
+        <div class="item" id="pos0-0"></div>
+        <div class="item" id="pos0-1"></div>
+        <div class="item" id="pos0-2"></div>
+        <div class="item" id="pos0-3"></div>
+        <div class="item" id="pos0-4"></div>
+        <div class="item" id="pos0-5"></div>
+
+        <div class="item" id="pos1-0"></div>
+        <div class="item" id="pos1-1"></div>
+        <div class="item" id="pos1-2"></div>
+        <div class="item" id="pos1-3"></div>
+        <div class="item" id="pos1-4"></div>
+        <div class="item" id="pos1-5"></div>
+
+        <div class="item" id="pos2-0"></div>
+        <div class="item" id="pos2-1"></div>
+        <div class="item" id="pos2-2"></div>
+        <div class="item" id="pos2-3"></div>
+        <div class="item" id="pos2-4"></div>
+        <div class="item" id="pos2-5"></div>
+
+        <div class="item" id="pos3-0"></div>
+        <div class="item" id="pos3-1"></div>
+        <div class="item" id="pos3-2"></div>
+        <div class="item" id="pos3-3"></div>
+        <div class="item" id="pos3-4"></div>
+        <div class="item" id="pos3-5"></div>
+
+        <div class="item" id="pos4-0"></div>
+        <div class="item" id="pos4-1"></div>
+        <div class="item" id="pos4-2"></div>
+        <div class="item" id="pos4-3"></div>
+        <div class="item" id="pos4-4"></div>
+        <div class="item" id="pos4-5"></div>
+
+        <div class="item" id="pos5-0"></div>
+        <div class="item" id="pos5-1"></div>
+        <div class="item" id="pos5-2"></div>
+        <div class="item" id="pos5-3"></div>
+        <div class="item" id="pos5-4"></div>
+        <div class="item" id="pos5-5"></div>
+
+    </div>
+
+    <div id="menu">
+        <h2 id="text">Game Over!</h2>
+        <button id="retry" onclick="location.reload()">Try Again</button>
+    </div>
+
+    <div id="selection">
+        <button id="snake" class="select" onclick="changeCharacter(options.snake)">🐍</button>
+        <button id="cat" class="select" onclick="changeCharacter(options.cat)"">🐈</button>
+        <button id="dog" class="select" onclick="changeCharacter(options.dog)"">🦮</button>
+        <button id="dog" class="select" onclick="changeCharacter(options.singer)"">💀</button>
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
