@@ -61,15 +61,21 @@
     </div>
 
     <div id="menu">
-        <h2 id="text">Game Over!</h2>
+        <h2 id="text">WASD to Move</h2>
         <button id="retry" onclick="location.reload()">Try Again</button>
+    </div>
+
+    <div id="points">
+        <h3 id="score">🍎 0</h3>
+        
+        <h3 id="highscore">⭐ 0</h3>
     </div>
 
     <div id="selection">
         <button id="snake" class="select" onclick="changeCharacter(options.snake)">🐍</button>
         <button id="cat" class="select" onclick="changeCharacter(options.cat)"">🐈</button>
         <button id="dog" class="select" onclick="changeCharacter(options.dog)"">🦮</button>
-        <button id="dog" class="select" onclick="changeCharacter(options.singer)"">💀</button>
+        <button id="dog" class="select" onclick="changeCharacter(options.thief)"">💰</button>
     </div>
 
 </body>

@@ -42,12 +42,13 @@ body{
 }
 
 #text{
-    color: rgb(187, 70, 70);
+    color:gray
 }
 
 #retry{
     background-color: rgb(187, 70, 70);
     color: #181a1b;
+    visibility: hidden;
 
     border-radius: 10%;
     border: solid 2px rgb(187, 70, 70);
@@ -62,7 +63,7 @@ body{
 #selection{
     text-align: center;
 
-    margin-top: 70px;
+    
     margin-left: auto;
     margin-right: auto;
 }
@@ -78,6 +79,14 @@ body{
 
 .select:hover{
     border: solid 1px #595e61;
+}
+
+#points{
+    color:#595e61;
+    margin-left: 40%;
+    margin-right: 40%;
+    display: flex;
+    justify-content: space-around;
 }
 
 /*
